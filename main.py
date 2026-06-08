@@ -10,6 +10,7 @@ app = FastAPI()
 # Muat model otak YOLOv26 hasil training dari root folder
 model = YOLO('best.pt') 
 
+
 @app.get("/")
 def home():
     return {"status": "Online", "pesan": "Server AI Flood Vision YOLOv26 Siap Menerima Video!"}
