@@ -3,4 +3,4 @@ __pycache__/
 .pytest_cache/
 *.mp4
 *.avi
-yolo26n.pt
+best.pt
